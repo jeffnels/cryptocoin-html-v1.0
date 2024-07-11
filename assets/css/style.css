@@ -807,7 +807,7 @@ div[class*="wide-"] + div[class*="row-column"]:not([class*="mg"]):not([class*="m
 .site-header .navbar { border-radius: 0; border: 0 none; min-width: 300px; padding: 12px 0 0; color: #36454e; background: #fff; margin: 0; z-index: 9; }
 .site-header .navbar .container .navbar-brand { margin-left: 0; }
 .site-header .navbar-brand { height: auto; padding: 0; }
-.site-header .navbar-brand img { width: auto; max-width: 100%; max-height: 50px; }
+.site-header .navbar-brand img { width: 12rem; height: 7rem; }
 .site-header .navbar-header .quote-btn { display: none; }
 .site-header .navbar-collapse { padding: 0; background-color: transparent; color: #3c3c3c; }
 .site-header .logo-light { display: none; }
@@ -1408,12 +1408,14 @@ form label.error { display: none !important; }
 .cryptonatorwidget td:last-of-type:after { position: absolute; top: 33px; right: 30px; height: 0; width: 0; z-index: 2; content: ""; border-top: 5px solid #3c3c3c; border-left: 5px solid transparent; border-right: 5px solid transparent; }
 .cryptonatorwidget input, .cryptonatorwidget select { border: none; border-radius: 4px; padding: 0 15px; height: 50px !important; text-transform: capitalize; margin: 10px 0; color: #3c3c3c; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
 
-@media screen and (max-width: 600px){
-  .logo-img{
+
+ @media screen and (max-width: 600px){
+  .site-header .navbar-brand img {
 height: 5rem;
-width: 5rem;
+width: 8rem;
+
 
 }
-}
+} 
 
 /* End */
