@@ -807,7 +807,7 @@ div[class*="wide-"] + div[class*="row-column"]:not([class*="mg"]):not([class*="m
 .site-header .navbar { border-radius: 0; border: 0 none; min-width: 300px; padding: 12px 0 0; color: #36454e; background: #fff; margin: 0; z-index: 9; }
 .site-header .navbar .container .navbar-brand { margin-left: 0; }
 .site-header .navbar-brand { height: auto; padding: 0; }
-.site-header .navbar-brand img { width: 12rem; height: 7rem; }
+.site-header .navbar-brand img { width: 13rem; height: 7rem; }
 .site-header .navbar-header .quote-btn { display: none; }
 .site-header .navbar-collapse { padding: 0; background-color: transparent; color: #3c3c3c; }
 .site-header .logo-light { display: none; }
@@ -1411,7 +1411,7 @@ form label.error { display: none !important; }
 
  @media screen and (max-width: 600px){
   .site-header .navbar-brand img {
-height: 5rem;
+height: 8rem;
 width: 8rem;
 
 
