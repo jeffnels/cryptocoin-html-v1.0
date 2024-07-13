@@ -807,7 +807,7 @@ div[class*="wide-"] + div[class*="row-column"]:not([class*="mg"]):not([class*="m
 .site-header .navbar { border-radius: 0; border: 0 none; min-width: 300px; padding: 12px 0 0; color: #36454e; background: #fff; margin: 0; z-index: 9; }
 .site-header .navbar .container .navbar-brand { margin-left: 0; }
 .site-header .navbar-brand { height: auto; padding: 0; }
-.site-header .navbar-brand img { width: 13rem; height: 7rem; }
+.site-header .navbar-brand img { width: 9rem; height: 5rem; }
 .site-header .navbar-header .quote-btn { display: none; }
 .site-header .navbar-collapse { padding: 0; background-color: transparent; color: #3c3c3c; }
 .site-header .logo-light { display: none; }
@@ -1413,16 +1413,45 @@ form label.error { display: none !important; }
   width: 3rem;
 }
 
- @media screen and (max-width: 600px){
+
+.opacity-bg {
+  position: relative; 
+   z-index: 5;
+}
+
+.opacity-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: inherit; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 6; 
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-text{
+  position: relative ;
+  z-index: 7;
+}
+
+
+
+
+ /* @media screen and (max-width: 600px){
   .site-header .navbar-brand img {
-height: 8rem;
+height: 20rem;
 width: 8rem;
 
 
 }
 
 
-} 
+}  */
 
 
  @media screen and (min-width: 601px){
