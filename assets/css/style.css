@@ -1058,7 +1058,7 @@ div[class*="wide-"] + div[class*="row-column"]:not([class*="mg"]):not([class*="m
   .banner-content p { margin-bottom: 15px; }
   .topbar { display: none; }
   .site-header .quote-btn .btn { padding: 3px 0 4px; min-width: 40px; }
-  .site-header .quote-btn .btn:before { font-family: "FontAwesome"; content: "\f298"; display: inline-block; font-size: 18px; vertical-align: middle; }
+  .site-header .quote-btn .btn:before { font-family: "FontAwesome"; content: "\f090"; display: inline-block; font-size: 18px; vertical-align: middle; }
   .site-header .quote-btn .btn span { display: none; }
   .site-header { border-top: 4px solid #f8f8f8; }
   .site-header .navbar-toggle + div.quote-btn { display: inline-block; float: right; margin: 12px 15px 12px 0; }
