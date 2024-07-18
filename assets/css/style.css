@@ -22,6 +22,9 @@ Updated: 01.29.2018
  * Best to write own code in css/theme.css file. 
  **/
 /* 01.0 Fonts == */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+</style>
 @font-face {
   font-family: "Quicksand";
   src: url("../fonts/Quicksand-Regular.eot");
@@ -5563,7 +5566,17 @@ form label.error {
 }
 .test-logo-img {
   width: 250px !important;
-  /* height: 3.5rem !important; */
+   height: 3.5rem !important
+}
+
+.logo-font{
+
+font-size: 3rem;
+font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+letter-spacing: 1px;
 }
 
 /* @media screen and (max-width: 600px){
@@ -5579,6 +5592,20 @@ width: 8rem;
   .top-btn {
     display: none;
   }
+
+ 
+}
+@media screen and (max-width: 601px) {
+  
+  .logo-font{
+
+font-size: 2rem;
+
+}
+.test-logo-img {
+  width: 250px !important;
+   height: 3.5rem !important
+}
 }
 
 /* End */
