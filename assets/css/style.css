@@ -4789,10 +4789,7 @@ div[class*="wide-"]+div[class*="row-column"]:not([class*="mg"]):not([class*="mt-
     display: none;
   }
 
-  .site-header {
-    border-top: 4px solid #f8f8f8;
-  }
-
+ 
   .site-header .navbar-toggle+div.quote-btn {
     display: inline-block;
     float: right;
@@ -6545,6 +6542,13 @@ width: 8rem;
 @media screen and (min-width: 601px) {
   .top-btn {
     display: none;
+  }
+
+
+}
+@media screen and (min-width: 991px) {
+  .nav-button-mobile {
+    display: none !important;
   }
 
 
