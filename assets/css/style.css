@@ -23,7 +23,7 @@ Updated: 01.29.2018
  **/
 /* 01.0 Fonts == */
  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @font-face {
   font-family: "Quicksand";
   src: url("../fonts/Quicksand-Regular.eot");
@@ -1038,6 +1038,9 @@ hr:last-child,
 .ucap {
   text-transform: uppercase;
   color: #f7921a;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
 
 }
 
@@ -4316,6 +4319,7 @@ div[class*="wide-"]+div[class*="row-column"]:not([class*="mg"]):not([class*="mt-
 .page-head h2 {
   font-weight: 500;
   text-transform: capitalize;
+   font-weight: 900;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -6511,9 +6515,9 @@ form label.error {
 
 .logo-font {
   font-size: clamp(2rem, 2.5vw, 2.4rem);
-  font-family: "Roboto Slab", serif;
+  font-family: "Quicksand", serif;
   font-optical-sizing: auto;
-  font-weight: 900;
+  font-weight: 700;
   font-style: italic;
   letter-spacing: 1px;
   color: white;
@@ -6522,6 +6526,14 @@ align-items: center;
 }
 .logo-font-span{
    color: #f7921a; 
+}
+
+
+
+.hero-li{
+  font-size:1.12rem ;
+  font-weight: 600;
+  
 }
 
 /* @media screen and (max-width: 600px){
