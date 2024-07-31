@@ -6518,7 +6518,7 @@ form label.error {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-style: italic;
+ 
   letter-spacing: 1px;
   color: white;
 display: flex;
@@ -6537,7 +6537,7 @@ align-items: center;
 }
 
 /* @media screen and (max-width: 600px){
-  .site-header .navbar-brand img {
+  .site-header . img {
 height: 20rem;
 width: 8rem;
 
