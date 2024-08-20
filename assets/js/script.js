@@ -169,34 +169,37 @@
 	}
 	
 	// Bitcoin Ticker
-	var $btc_ticker = $('.btc-ticker');
-	if ($btc_ticker.length > 0 ) {
-		$btc_ticker.owlCarousel({
-			items:7,
-			loop:true,
-			margin:0,
-			center:true,
-			stagePadding:0,
-			responsive:{
-				0 : {
-					items:1,
-				},
-				400 : {
-					items:2,
-					center:false,
-				},
-				599 : {
-					items:3,
-				},
-				1024 : {
-					items:5,
-				},
-				1170 : {
-					items:7,
-				}
-			}
-		});
-	}
+	$(document).ready(function(){
+    var $btc_ticker = $('.btc-ticker');
+    if ($btc_ticker.length > 0 ) {
+        $btc_ticker.owlCarousel({
+            items:7,
+            loop:true,
+            margin:0,
+            center:true,
+            stagePadding:0,
+            responsive:{
+                0 : {
+                    items:1,
+                },
+                400 : {
+                    items:2,
+                    center:false,
+                },
+                599 : {
+                    items:3,
+                },
+                1024 : {
+                    items:5,
+                },
+                1170 : {
+                    items:7,
+                }
+            }
+        });
+    }
+});
+
 	
 	
 	// Header Slider
